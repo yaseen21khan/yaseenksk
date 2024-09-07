@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaseen's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+	<div class="under-construction">
+        <i class="fas fa-tools"></i> This site is under construction
+    </div>
+    <header>
+        <div class="container">
+            <h1>Yaseen's Portfolio</h1>
+            <p>Research Assistant | PhD Scholar @ Sejong University</p>
+            <p>Computer Vision | Deep Learning | Android Developer | Image and Video Processing</p>
+            <p>Email: <a href="mailto:yaseen@sju.ac.kr">yaseen at sju dot ac dot kr</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/yaseenksk" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a> |
+                <a href="https://github.com/yaseen21khan" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </p>
+        </div>
+    </header>
+
+   <!-- <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a PhD scholar at Sejong University, specializing in deep learning, computer vision, and image and video processing. My research focuses on gesture recognition-based UAV control systems. I have published several scientific papers and developed Android apps related to these fields.</p>
+        </div>
+    </section>
+-->
+
+
+<section id="Android Projects" class="section">
+<div class="container">
+<h2>Android Projects</h2>
+<!-- project 1 -->
+<div class="project-container">
+    <img src="images/android.png" alt="Android Icon" class="project-icon">
+    <h3>OnePhoto Application</h3>
+    <p>OnePhoto Application utilizes C++ and Java to implement the JPEG Privacy & Security standard, ensuring photo authenticity by detecting <br>
+	any alterations or unauthorized modifications.</p>
+    <span class="plain-link" onclick="toggleDetails('project1')">View Details</span>
+    
+	<div id="project1" class="project-details" style="display: none;">
+        <p>DoubleBench's OnePhoto application is a cutting-edge tool designed to ensure the authenticity and integrity of natural photos. Leveraging the 
+		JPEG Privacy & Security (PNS) international standard developed by DoubleBench, OnePhoto offers a robust solution for verifying photo authenticity 
+		and protecting image integrity.</p>
+        <p><strong>Technologies:</strong> OpenCV, NDK, SDK, C++ and Java</p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+            <img src="images/onephoto_1.png" alt="UAV Control 1" onclick="openImageInNewWindow('images/onephoto_1.png')">
+            <img src="images/onephoto_2.png" alt="UAV Control 2" onclick="openImageInNewWindow('images/onephoto_2.png')">
+            <img src="images/onephoto_3.jpg" alt="UAV Control 3" onclick="openImageInNewWindow('images/onephoto_3.jpg')">
+            <img src="images/onephoto_4.jpg" alt="UAV Control 4" onclick="openImageInNewWindow('images/onephoto_4.jpg')">
+            <img src="images/onephoto_5.jpg" alt="UAV Control 5" onclick="openImageInNewWindow('images/onephoto_5.jpg')">
+            <img src="images/onephoto_6.jpg" alt="UAV Control 6" onclick="openImageInNewWindow('images/onephoto_6.jpg')">
+            <img src="images/onephoto_7.jpg" alt="UAV Control 7" onclick="openImageInNewWindow('images/onephoto_7.jpg')">
+        </div>
+
+        <p><a href="https://youtu.be/hcashwQGZNg?si=vWRmsjrIQiIwirIw" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Watch demo video</a></p>
+        <p><a href="https://doublebench.com/jpeg-privacy--security---phone-en/" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Download app apk</a></p>
+		<h4>Key Features:</h4>
+        <ul>
+            <li>DoubleBench’s ONE PHOTO authenticates natural photos.</li>
+            <li>ONE PHOTO’s integrity checking fails whenever any tool touches the photo, including metadata changes after shooting.</li>
+            <li>ONE PHOTO’s integrity checking also fails for the .jpg image not taken by ONE PHOTO.</li>
+            <li>ONE PHOTO is based on the JPEG Privacy & Security international standard format developed by DoubleBench.</li>
+        </ul>
+
+        <!-- Publication section -->
+        <p><strong>Publication:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/8444617" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">A Watermark-Based Scheme for Authenticating JPEG Image Integrity</a></p>
+    </div>
+	
+</div>
+<!-- project 2 -->
+<div class="project-container">
+    <img src="images/android.png" alt="Android Icon" class="project-icon">
+    <h3>Panorama Application </h3>
+    <p>An android application developed for automatic panorama stitching and embeddong JPEG Privacy & Security Signature for authenticity,<br>
+	the app is build using C++, java, NDK and SDK</p>
+    <span class="plain-link" onclick="toggleDetails('project2')">View Details</span>
+    
+	<div id="project2" class="project-details" style="display: none;">
+        <p>Our Android-based application tackles common issues in image stitching, including stitching failures and distortion. Developed with the Android NDK 
+		(Native Development Kit) and Java, the application ensures precise and efficient stitching of panoramic images.The app uses a gyro sensor to automatically 
+		capture images based on orientation changes, which automates the stitching process and enhances user experience. This automation streamlines the creation of 
+		panoramic images, reducing manual effort. Moreover, the application integrates advanced privacy and security features with a signature based on the JPEG Privacy and Security
+		standard. This ensures the integrity and authenticity of the captured images.
+		
+		The images provided illustrate the application's capability to generate high-quality panoramic photos, demonstrating its effectiveness in producing clear and accurate stitched images.</p>
+        <p><strong>Technologies:</strong> Android Gyro, OpenCV, NDK, SDK, C++ and Java</p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+            <img src="images/panorama_1.jpg" alt="UAV Control 1" onclick="openImageInNewWindow('images/panorama_1.png')">
+            <img src="images/panorama_2.jpg" alt="UAV Control 2" onclick="openImageInNewWindow('images/panorama_2.png')">
+            <img src="images/panorama_3.jpg" alt="UAV Control 3" onclick="openImageInNewWindow('images/panorama_3.jpg')">
+        </div>
+	    <p><a href="panorama.apk" download="Panorama Application" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Download APK</a></p>
+
+		<h4>Key Features:</h4>
+			<ul>
+            <li> Android-based application</li>
+            <li> Address the issue of stitching failure</li>
+            <li> Address the issue of distortion</li>
+            <li> Control events with an orientation sensor for automation</li>
+        </ul>
+<!-- Publication section -->
+        <p><strong>Publication:</strong> <a href="https://www.mdpi.com/1424-8220/23/2/879" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Automatic Sequential Stitching of High-Resolution Panorama for Android Devices Using Precapture Feature Detection and the Orientation Sensor</a></p>
+    </div>
+	
+</div>
+
+<!-- project 3 -->
+<div class="project-container">
+    <img src="images/android.png" alt="Android Icon" class="project-icon">
+    <h3>KiiP Application </h3>
+    <p>A simple application developed for vocabulary and grammar usage of korean language<br>
+	the app is build using java </p>
+    <span class="plain-link" onclick="toggleDetails('project3')">View Details</span>
+    
+	<div id="project3" class="project-details" style="display: none;">
+        <p>A straightforward application developed in Java, designed to enhance vocabulary and grammar usage for Korean language learners. Based on the KiiP program syllabus, 
+		this app covers course content up to Level 3, providing users with a comprehensive tool for mastering Korean.</p>
+        <p><strong>Technologies:</strong> Android Java</p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+            <img src="images/kiip_1.jpg" alt="UAV Control 1" onclick="openImageInNewWindow('images/kiip_1.jpg')">
+            <img src="images/kiip_2.jpg" alt="UAV Control 2" onclick="openImageInNewWindow('images/kiip_2.jpg')">
+            <img src="images/kiip_3.jpg" alt="UAV Control 3" onclick="openImageInNewWindow('images/kiip_3.jpg')">
+			<img src="images/kiip_4.jpg" alt="UAV Control 3" onclick="openImageInNewWindow('images/kiip_4.jpg')">
+        </div>
+	    <p><a href="kiip.apk" download="KiiP Application" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Download APK</a></p>
+
+		<h4>Key Features:</h4>
+			<ul>
+            <li> Android-based application</li>
+            <li> Provides Korean Vocabulary based on KiiP Books</li>
+            <li> Korean Grammar Usage</li>
+        </ul>
+    </div>
+	
+</div>
+
+    </div>
+</section>
+
+<section id="Machine Learninig Projects" class="section">
+<div class="container">
+<h2>Machine Learninig Projects</h2>
+<!-- project 4 -->
+<div class="project-container">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
+    <h3>Vision Based Hand Gesture Recognition</h3>
+    <p>This project leverages deep learning to enable control of drones using vision-based hand gesture recognition (HGR).</p>
+    <span class="plain-link" onclick="toggleDetails('project4')">View Details</span>
+    
+	<div id="project4" class="project-details" style="display: none;">
+        <p>Initially, static hand gestures were classified using models trained on HGR datasets.
+		For dynamic gestures, more advanced techniques such as LSTM, MediaPipe, and Transformers were employed for video-based hand gesture classification.
+		These models achieved high accuracy, making it a robust system for real-time drone control through gesture commands.</p>
+        <p><strong>Technologies:</strong> Python, Mediapipe, Tensorflow, Pandas, Numpy Arrays etc.</p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+            <img src="images/HGR_1.png" alt="UAV Control 1" onclick="openImageInNewWindow('images/HGR_1.png')">
+            <img src="images/HGR_2.png" alt="UAV Control 2" onclick="openImageInNewWindow('images/HGR_2.png')">
+            <img src="images/HGR_3.png" alt="UAV Control 3" onclick="openImageInNewWindow('images/HGR_3.png')">
+            <img src="images/HGR_4.png" alt="UAV Control 4" onclick="openImageInNewWindow('images/HGR_4.png')">
+            <img src="images/HGR_5.png" alt="UAV Control 5" onclick="openImageInNewWindow('images/HGR_5.png')">
+        </div>
+
+        <p><a href="https://www.youtube.com/shorts/zSILMPUhbs0?feature=share" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Watch demo video</a></p>
+		<h4>Key Features:</h4>
+<ul>
+    <li>Used <strong>MediaPipe</strong>, <strong>TensorFlow</strong>, and <strong>Python</strong> for model development.</li>
+    <li>The vision-based model was developed using state-of-the-art techniques to control the drone in real-time.</li>
+    <li>The system was successfully interfaced with a drone simulation in <strong>Unity</strong>.</li>
+</ul>
+
+
+        <!-- Publication section -->
+        <p><strong>Publication:</strong> <a href="https://www.mdpi.com/2079-9292/13/16/3233" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Next-Gen Dynamic Hand Gesture Recognition: MediaPipe, Inception-v3 and LSTM-Based Enhanced Deep Learning Model</a></p>
+    </div>
+	
+</div>
+<!-- project 5 -->
+<div class="project-container">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
+    <h3>Desktop Based Application (interfacing HGR module with Unity simulator) </h3>
+    <p>"Developed a drone simulator in Unity using the Unity engine.</p>
+    <span class="plain-link" onclick="toggleDetails('project5')">View Details</span>
+    
+	<div id="project5" class="project-details" style="display: none;">
+        <p>Allowing the drone to receive and execute real-time commands via socket communication. 
+		The drone performs actions such as moving up, right, left, forward, as well as taking off, landing, and halting on destination PC while gesture were performed over a remote PC. The communcations between two PCs was established via ip addresses using sockets and TCP protocol.</p>
+        <p><strong>Technologies:</strong> Python, Tkinter library, sockets</p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+            <img src="images/simulator_1.png" alt="UAV Control 1" onclick="openImageInNewWindow('images/simulator_1.png')">
+            <img src="images/simulator_2.png" alt="UAV Control 2" onclick="openImageInNewWindow('images/simulator_2.png')">
+        </div>
+
+<p><a href="https://youtu.be/981BESgDZ8M" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Watch demo video</a></p>
+
+		<h4>Key Features:</h4>
+			<ul>
+            <li> Developed a desktop based user interface</li>
+            <li> Integrated hand gesture recogitnion model</li>
+            <li> Sokcet communication were used for sending command over the internet using TCP </li>
+            <li> Three modules were integrated together Unity simulator, GUI interface, machine learning HGR model</li>
+        </ul>
+<!-- Publication section -->
+        <p><strong>Publication:</strong> <a href="" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';"> Submitted to Drones MDPI </a></p>
+    </div>
+	
+</div>
+
+<!-- project 6 -->
+<div class="project-container">
+    <img src="images/desktop.png" alt="Android Icon" class="project-icon">
+    <h3> Drone Control Simulator in Unity  (Hybrid ML based HGR system interfaced with unity)  </h3>
+    <p>I developed a real-time drone control simulator using Unity, where the drone can execute various movements such as moving left, right, up, down, forward, and backward. </p>
+    <span class="plain-link" onclick="toggleDetails('project6')">View Details</span>
+    
+	<div id="project6" class="project-details" style="display: none;">
+        <p>This project showcases responsive drone control, simulating real-world conditions. Technologies used: Unity, C# </p>
+        <p><strong>Technologies:</strong> Unity Engine, C#</p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+            <img src="images/drone_1.png" alt="UAV Control 1" onclick="openImageInNewWindow('images/drone_1.png')">
+            <img src="images/drone_2.png" alt="UAV Control 2" onclick="openImageInNewWindow('images/drone_2.png')">
+            <img src="images/drone_3.png" alt="UAV Control 3" onclick="openImageInNewWindow('images/drone_3.png')">
+			
+        </div>
+
+		<h4>Key Features:</h4>
+			<ul>
+            <li> Desktop-based application</li>
+            <li> Simulating drone moments</li>
+            <li> Recieving commands via ip address for control</li>
+        </ul>
+    </div>
+	
+</div>
+
+    </div>
+</section>
+
+
+<!-- Datasets I created -->
+<section id="Machine Learninig Projects" class="section">
+<div class="container">
+<h2>Benchmark Datasets for ML</h2>
+<!-- project 4 -->
+<div class="project-container">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
+    <h3>Dataset for heart sound signals classification</h3>
+    <p>This dataset consists of five distinct classes, including normal heart sounds and four categories of abnormal heart sounds, each associated with different cardiovascular conditions. <br>
+	It serves as a valuable resource for training machine learning models for disease classification based on heart sound signals </p>
+    <span class="plain-link" onclick="toggleDetails('project7')">View Details</span>
+    
+	<div id="project7" class="project-details" style="display: none;">
+        <p>More details can be found on my <a href="https://github.com/yaseen21khan/Classification-of-Heart-Sound-Signal-Using-Multiple-Features-" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">GitHub page</a>.</p>
+
+        <p><strong>Technologies:</strong> Channel sampling software tools, MATLAB</p>
+
+        <!-- Image Grid 
+        <div class="image-grid">
+            <img src="images/HGR_1.png" alt="UAV Control 1" onclick="openImageInNewWindow('images/HGR_1.png')">
+            <img src="images/HGR_2.png" alt="UAV Control 2" onclick="openImageInNewWindow('images/HGR_2.png')">
+            <img src="images/HGR_3.png" alt="UAV Control 3" onclick="openImageInNewWindow('images/HGR_3.png')">
+            <img src="images/HGR_4.png" alt="UAV Control 4" onclick="openImageInNewWindow('images/HGR_4.png')">
+            <img src="images/HGR_5.png" alt="UAV Control 5" onclick="openImageInNewWindow('images/HGR_5.png')">
+        </div>-->
+
+		<h4>Key Features:</h4>
+<ul>
+    <li>For heart disease classification </li>
+</ul>
+
+
+        <!-- Publication section -->
+        <p><strong>Publication:</strong> <a href="https://www.mdpi.com/2076-3417/8/12/2344" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Classification of Heart Sound Signal Using Multiple Features
+</a></p>
+    </div>
+	
+</div>
+<!-- project 5 -->
+<div class="project-container">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
+    <h3>Benchmark Dataset for Hand Gesture Recognition-Based Real-Time Drone Control</h3>
+    <p></p>
+    <span class="plain-link" onclick="toggleDetails('project8')">View Details</span>
+    
+	<div id="project8" class="project-details" style="display: none;">
+        <p>This dataset was created specifically for hand gesture recognition (HGR) to control drones in real time. It includes a comprehensive collection of both static and dynamic hand gesture data, designed to train and benchmark deep learning models.
+		The dataset will be accompanied by a research paper detailing the data collection process, model training, and application in drone control. This makes it an essential resource for researchers in gesture recognition and autonomous drone systems.</p>
+        <p><strong>Technologies:</strong> RGB camera</p>
+
+        <!-- Image Grid 
+        <div class="image-grid">
+            <img src="images/simulator_1.png" alt="UAV Control 1" onclick="openImageInNewWindow('images/simulator_1.png')">
+            <img src="images/simulator_2.png" alt="UAV Control 2" onclick="openImageInNewWindow('images/simulator_2.png')">
+        </div>-->
+		<h4>Key Features:</h4>
+			<ul>
+            <li> Designed and created a benchmark dataset of hand gestures</li>
+            <li> Will be publicly available soon</li>
+        </ul>
+<!-- Publication section -->
+        <p><strong>Publication:</strong> <a href="" target="_blank" style="color: blue; text-decoration: none;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';"> Manuscript writting under progress ... </a></p>
+    </div>
+	
+</div>
+
+    </div>
+</section>
+<!-- end of tage -->
+
+<section id="More Machine Learninig Projects" class="section">
+<div class="container">
+<h2>More Machine Learninig Projects</h2>
+<!-- project 1 -->
+<div class="project-container">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
+    <h3>Loading ...</h3>
+	<br>
+
+</div>
+</section>
+
+        </div>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yaseen. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        
+        <div class="modal-content">
+            <div class="mySlides">
+                <img src="images/uav_control_1.jpg" alt="UAV Control 1">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/uav_control_2.jpg" alt="UAV Control 2">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/uav_control_3.jpg" alt="UAV Control 3">
+            </div>
+
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            var details = document.getElementById(id);
+            if (details.style.display === "none") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+
+        var slideIndex = 1;
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+            showSlides(slideIndex);
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+    </script>
+</body>
+</html>

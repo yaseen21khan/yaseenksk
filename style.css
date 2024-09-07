@@ -1,0 +1,255 @@
+/* Universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #2c3e50; /* Darker blue-gray */
+    color: #000; /* Black text color */
+    text-align: center;
+    padding: 2rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    border-bottom: 4px solid #3498db; /* Accent blue border */
+}
+
+header h1 {
+    font-size: 3rem; /* Larger font size */
+    margin-bottom: 0.5rem;
+    font-weight: 700; /* Bold weight */
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem; /* Slightly larger text */
+}
+
+/* Social link styling */
+.social-link {
+    color: #000; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    margin: 0 0.5rem; /* Spacing between icons */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-link:hover {
+    color: #3498db; /* Hover color */
+}
+
+/* Container for aligning content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #e3f2fd  ;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Section styling */
+.section {
+    padding: 2rem 0;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* Header within section */
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #2c3e50; /* Darker color for contrast */
+}
+
+/* Project container styling */
+.project-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    overflow: hidden; /* Ensure content stays within bounds */
+}
+
+/* Project icon styling */
+.project-icon {
+    width: 50px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #3498db; /* Icon color */
+}
+
+/* Project details styling */
+.project-details {
+    display: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-top: 1rem;
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50; /* Darker blue-gray */
+    color: #000; /* Black text color */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Image grid styling */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover their container */
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners for images */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Modal window styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    position: relative; /* For positioning the navigation arrows */
+}
+
+.modal-content .mySlides {
+    display: none; /* Hide all slides initially */
+}
+
+.modal-content img {
+    width: 100%;
+}
+.plain-link {
+    color: #007bff; /* Link color */
+    font-size: 1rem;
+    text-decoration: underline; /* Underline text to indicate it's clickable */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Space from the left */
+}
+
+li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+.plain-link:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+/* Bullet List Styling */
+.project-details ul {
+    padding-left: 20px; /* Indent list from the left */
+    margin-top: 10px; /* Space above the list */
+}
+
+.project-details ul li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+
+/* Under Construction Notification */
+.under-construction {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffcc00; /* Yellow background */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 1000; /* Ensure it is on top of other content */
+    border-bottom: 2px solid #000; /* Black border at the bottom */
+}
+
+.under-construction i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Navigation arrows */
+.modal .prev, .modal .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+}
+
+.modal .prev {
+    left: 0;
+}
+
+.modal .next {
+    right: 0;
+}
+
+/* Close button styling */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
