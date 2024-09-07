@@ -264,9 +264,9 @@
 <section id="Machine Learninig Projects" class="section">
 <div class="container">
 <h2>Benchmark Datasets for ML</h2>
-<!-- project 7 -->
+<!-- project 4 -->
 <div class="project-container">
-    <img src="images/dataset-icon.png" alt="Android Icon" class="project-icon">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
     <h3>Dataset for heart sound signals classification</h3>
     <p>This dataset consists of five distinct classes, including normal heart sounds and four categories of abnormal heart sounds, each associated with different cardiovascular conditions. <br>
 	It serves as a valuable resource for training machine learning models for disease classification based on heart sound signals </p>
@@ -298,9 +298,9 @@
     </div>
 	
 </div>
-<!-- project 8 -->
+<!-- project 5 -->
 <div class="project-container">
-    <img src="images/dataset-icon.png" alt="Android Icon" class="project-icon">
+    <img src="images/machine-learning.png" alt="Android Icon" class="project-icon">
     <h3>Benchmark Dataset for Hand Gesture Recognition-Based Real-Time Drone Control</h3>
     <p></p>
     <span class="plain-link" onclick="toggleDetails('project8')">View Details</span>
